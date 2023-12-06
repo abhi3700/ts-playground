@@ -9,5 +9,6 @@
     "strict": true,
     "skipLibCheck": true
   },
-  "include": ["./src", "src/examples"]
+  "include": ["./src", "src/examples"],
+  "exclude": ["node_modules", "dist"]
 }

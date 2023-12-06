@@ -15,3 +15,39 @@ yarn
 ```sh
 yarn build
 ```
+
+## Test
+
+```sh
+yarn test
+```
+
+## Coverage
+
+```sh
+yarn coverage
+```
+
+## Lint
+
+```sh
+yarn lint
+```
+
+## Format
+
+```sh
+yarn format
+```
+
+## Clean
+
+```sh
+yarn clean
+```
+
+## Clean All
+
+```sh
+yarn clean:all
+```
