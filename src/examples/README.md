@@ -1,3 +1,3 @@
 # Examples
 
-This directory contains all the examples related to library in [`../lib/`](../lib/) folder.
+This directory contains some examples that demonstrate how to use the a npm package in a typescript project.
