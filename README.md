@@ -1,8 +1,8 @@
-# Typescript Boilerplate
+# Typescript Playground
 
 ## Description
 
-This is a boilerplate for typescript projects.
+This is for typescript code.
 
 ## Install
 

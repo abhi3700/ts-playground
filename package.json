@@ -1,18 +1,18 @@
 {
-  "name": "auto-sdk-ts",
+  "name": "ts-playground",
   "version": "1.0.0",
-  "description": "",
+  "description": "Playground for TypeScript",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
+    "clean": "rm -rf dist",
+    "clean:all": "rm -rf dist && rm -rf node_modules",
     "start": "node dist/index.js",
-    "test": "jest",
     "lint": "eslint . --ext .ts",
     "format": "prettier --write \"src/**/*.ts\"",
-    "prepare": "npm run build",
     "doc": "typedoc",
-    "clean": "rimraf dist && rimraf node_modules",
-    "example": "tsc && node dist/examples/example.js"
+    "eg:hello": "tsc && node dist/examples/hello.js",
+    "eg:async-1": "tsc && node dist/tuts/async/1.js"
   },
   "keywords": [],
   "author": "",
@@ -23,7 +23,9 @@
     "@typescript-eslint/parser": "^6.13.1",
     "eslint": "^8.55.0",
     "jest": "^29.7.0",
+    "prettier": "^3.1.0",
     "ts-jest": "^29.1.1",
+    "typedoc": "^0.25.4",
     "typescript": "^5.3.2"
   },
   "dependencies": {}
